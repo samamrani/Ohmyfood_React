@@ -3,13 +3,15 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import './App.css'
 import Layout from './layouts/Layout';
 import Home from './pages/Home';
+
 import "./sass/main.scss";
+
 
 const routes = createRoutesFromElements(
   <Route path= "/" element={<Layout />} >
 
     <Route index element= {<Home />} />
-
+   
   </Route>
 );
 

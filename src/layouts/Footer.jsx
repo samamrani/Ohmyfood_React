@@ -2,7 +2,7 @@ import "../sass/main.scss";
 
 function Footer(){
     return(
-        <footer className="footer">
+      <footer className="footer">
         <div className="footer__logo">
           <a title="ohmyfood" className="footer__logo" href="#">ohmyfood</a>
         </div>
