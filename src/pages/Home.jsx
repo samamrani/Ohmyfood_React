@@ -1,15 +1,15 @@
-import Delice from "../composants/Delice";
-import Enchantee from "../composants/Enchantee";
-import Francaise from "../composants/Francaise";
-import Palette from "../composants/Palette";
+import Fonctionnement from "../composants/Fonctionnement";
+import Localisez from "../composants/Localisez";
+import Resto from "../composants/Resto";
+
 
 function Home(){
     return(
         <>
-            <Delice />
-            <Francaise />
-            <Enchantee />
-            <Palette />
+        <Localisez />
+        <Fonctionnement />
+        <Resto />
+           
         </>
     )
 }

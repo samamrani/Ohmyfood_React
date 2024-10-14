@@ -1,10 +1,10 @@
 import francaise from "../assets/images/francaise.jpg"
 
-function Francaise(){
+function AlaFrancaise(){
     return(
         <main className="menu">
       <section className="menu__section">
-        <img src={francaise} alt="la francaise"/>
+        <img className="menu__img" src={francaise} alt="la francaise"/>
 
         <div className="menu__group">
           <div className="menu__content">
@@ -157,4 +157,4 @@ function Francaise(){
 
     )
 }
-export default Francaise;
+export default AlaFrancaise;

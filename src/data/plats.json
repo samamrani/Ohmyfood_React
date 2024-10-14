@@ -1,0 +1,20 @@
+[
+    {
+     " titre": "Plats",
+      "text": "Poulet rôti aux herbes de Provence",
+      "detail": "Et sa crème de truffe",
+      "prix": "40€"
+    },
+    {
+     " titre": "Plats",
+      "text": "Langouste rôtie",
+      "detail": "Et ses légumes de saison",
+      "prix": "35€"
+    },
+    {
+     " titre": "Plats",
+      "text": "Côte de bœuf Angus",
+      "detail": "Et sa purée de panais",
+      "prix": "44€"
+    }
+  ]

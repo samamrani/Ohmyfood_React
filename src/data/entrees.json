@@ -1,0 +1,20 @@
+[
+    {
+      "titre": "Entrées",
+      "text": "Tartare de thon",
+      "detail": "Assaisonné au yuzu",
+      "prix": "25€"
+    },
+    {
+      "titre": "Entrées",
+      "text": "Bouchée de homard croustillant",
+      "detail": "Et sa farandole de petits légumes",
+      "prix": "35€"
+    },
+    {
+      "titre": "Entrées",
+      "text": "Poulet rôti aux herbes de Provence",
+      "detail": "Et sa crème de truffe",
+      "prix": "40€"
+    }
+  ]
