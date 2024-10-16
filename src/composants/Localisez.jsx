@@ -1,7 +1,6 @@
 function Localisez(){
     return(
-
-        <section className="section__localisez">
+      <section className="section__localisez">
         <div className="localisez">
           <div className="localisez__content">
             <i className="fa-solid fa-location-dot"></i>
@@ -10,7 +9,6 @@ function Localisez(){
             <a title="localisation" href="#">Paris, Belleville</a>
           </div>
         </div>
-
         <div className="reserver">
           <div className="reserver__content">
             <h2 className="reserver__titre">

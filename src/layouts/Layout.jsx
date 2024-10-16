@@ -5,11 +5,11 @@ import "../sass/main.scss";
 
 function Layout(){
     return(
-        <> 
+        <div className="container">
             <Header /> 
             <Outlet /> 
             <Footer />
-        </>
+        </div>
     )
 }
 export default Layout;
