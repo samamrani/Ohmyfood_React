@@ -34,7 +34,6 @@ function Restaurants(){
               <i className="fa-solid fa-heart heart__checked"></i>
             </div>
           </div>
-        
           <div className="menu__articles"> 
               <Menu title="Entrées" items={selectedResto.entrees} />
               <Menu title="Plats" items={selectedResto.plats} />
