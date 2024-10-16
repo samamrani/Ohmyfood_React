@@ -1,8 +1,9 @@
+
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom';
 
 import Layout from './layouts/Layout';
 import Home from './pages/Home';
-import Restaurants from './pages/Restaurantst'; 
+import Restaurants from './pages/Restaurants'; 
 import "./sass/main.scss";
 
 const routes = createRoutesFromElements(
@@ -15,8 +16,8 @@ const routes = createRoutesFromElements(
   </Route>
 );
 
-const router = createBrowserRouter(routes);
-
+// const router = createBrowserRouter(routes);
+const router = createBrowserRouter(routes, { basename: '/Ohmyfood_React' });
 function App() {
   return (
     <RouterProvider router={router} />
