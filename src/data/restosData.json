@@ -1,0 +1,34 @@
+[
+  {
+    "id": "le-delice-des-sens",
+    "src": "delice_des_sens.jpg",
+    "titre": "Le délice des sens",
+    "entrees": ["Salade César", "Carpaccio de boeuf"],
+    "plats": ["Filet de boeuf", "Saumon grillé"],
+    "desserts": ["Tarte aux pommes", "Fondant au chocolat"]
+  },
+  {
+    "id": "la-palette-du-gout",
+    "src": "delice_des_sens.jpg",
+    "titre": "La palette du goût",
+    "entrees": ["Soupe à l'oignon", "Terrine de campagne"],
+    "plats": ["Poulet rôti", "Côte de veau"],
+    "desserts": ["Crème brûlée", "Mousse au chocolat"]
+  },
+  {
+    "id": "ala-francaise",
+    "src": "francaise.jpg",
+    "titre": "À la française",
+    "entrees": ["Quiche Lorraine", "Foie gras"],
+    "plats": ["Coq au vin", "Cassoulet"],
+    "desserts": ["Éclair au chocolat", "Tarte tatin"]
+  },
+  {
+    "id": "la-note-enchantee",
+    "src": "note_enchantee.jpg",
+    "titre": "La note enchantée",
+    "entrees": ["Escargots de Bourgogne", "Salade Niçoise"],
+    "plats": ["Boeuf Bourguignon", "Magret de canard"],
+    "desserts": ["Paris-Brest", "Clafoutis aux cerises"]
+  }
+]

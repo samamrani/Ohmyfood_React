@@ -1,0 +1,16 @@
+.localisez {
+  @include flexMid;
+  padding: 14px 89px 13px 89px;
+  gap: 17px;
+  background: #eaeaea;
+  height: 50px;
+
+  &__content {
+    color: #353535;
+  }
+
+  &__ville a {
+    color: #353535;
+    text-decoration: none;
+  }
+}

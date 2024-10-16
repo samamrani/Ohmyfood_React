@@ -1,0 +1,75 @@
+.fonctionnement {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 20px;
+  padding: 20px;
+
+  &__titre {
+    padding-top: 30px;
+    font-weight: bold;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    background: #f6f6f6;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+    width: 322px;
+    height: 72px;
+    margin-bottom: 40px;
+  }
+  &__groupe {
+    @include flexMid;
+    flex-direction: column;
+  }
+
+  &__rectangle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__numeros {
+    @include flexMid;
+    border-radius: 20px;
+    background: #9356dc;
+    width: 24px;
+    height: 24px;
+    margin-right: 40px;
+    margin-left: -10px;
+  }
+
+  &__numeros--un {
+    padding: 2px 6px;
+    color: white;
+  }
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  .icon {
+    color: #9356dc;
+  }
+}
+
+@media (min-width: 1024px) {
+  .fonctionnement {
+    flex-direction: column;
+
+    &__groupe {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+
+    &__rectangle {
+      flex-direction: row;
+    }
+  }
+}

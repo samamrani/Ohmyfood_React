@@ -1,0 +1,37 @@
+.reserver {
+  @include flexMid;
+  flex-direction: column;
+  background: #f6f6f6;
+  padding: 30px;
+  gap: 20px;
+
+  &__content {
+    text-align: center;
+
+    justify-content: center;
+  }
+
+  &__titre {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  &__texte {
+    font-size: 18px;
+    font-weight: 300;
+  }
+
+  &__btn {
+    background-image: linear-gradient(to top, #9356dc -11.44%, #ff79da 123.93%);
+    margin-top: 1rem;
+    border: none;
+    padding: 15px 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 2px 1px 10px -3px black;
+    transition: transform 200ms;
+  }
+}

@@ -1,0 +1,17 @@
+@import "./utils/variable";
+@import "./utils/mixins";
+
+@import "./general/global";
+@import "./general/animation";
+
+@import "./components/heart";
+
+@import "./page/header";
+@import "./page/footer";
+
+@import "./layout/localisez";
+@import "./layout/reserver";
+@import "./layout/fonctionnement";
+@import "./layout/page_resto";
+@import "./layout/page_menu";
+@import "./layout/pageLoader";
