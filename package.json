@@ -3,22 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-<<<<<<< HEAD
   "homepage": "https://samamrani.github.io/Ohmyfood_React",
-=======
-  "homepage": "https://samamrani.github.io/Ohmyfood_React.git",
->>>>>>> b2435db77b6ec22d341489a58f76a3d45d759147
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-<<<<<<< HEAD
-     "deploy": "gh-pages -d dist -r https://github.com/samamrani/Ohmyfood_React.git"
-=======
-    "deploy": "gh-pages -d dist"
->>>>>>> b2435db77b6ec22d341489a58f76a3d45d759147
+    "deploy": "gh-pages -d dist -r https://github.com/samamrani/Ohmyfood_React.git"
   },
   "dependencies": {
     "react": "^18.3.1",
