@@ -12,10 +12,10 @@ function Resto() {
   const restaurants = useSelector((state) => state.resto.restaurants); 
 
   const groupes = [
-    { id: "ala-francaise", src: gout, titre: "À la française", ville: "Cité Rouge" },
-    { id: "la-note-enchantee", src: enchantee, titre: "La note enchantée", ville: "Folie-Méricourt" },
-    { id: "le-delice-des-sens", src: delice, titre: "Le délice des sens", ville: "Ville des Fleurs" },
-    { id: "la-palette-du-gout", src: paletteDuGout, titre: "La palette du goût", ville: "Folie Verte" }
+    { id: 1, src: gout, titre: "À la française", ville: "Cité Rouge" },
+    { id: 2, src: enchantee, titre: "La note enchantée", ville: "Folie-Méricourt" },
+    { id: 3, src: delice, titre: "Le délice des sens", ville: "Ville des Fleurs" },
+    { id: 4, src: paletteDuGout, titre: "La palette du goût", ville: "Folie Verte" }
   ];
 
   const handleAddRestaurant = (restaurant) => {

@@ -15,9 +15,9 @@ const images = {
 
 function Restaurants(){
   const { id } = useParams(); // Récupère l'ID de l'URL
-
-  const selectedResto = data.find(rest => rest.id === id);
-  // Si aucun restaurant correspondant n'est trouvé
+  const numericId = parseInt(id, 10);//Convertir
+  const selectedResto = data.find(rest => rest.id === numericId);
+ 
   if (!selectedResto) {
     return <p>Restaurant non trouvé !</p>;
   }

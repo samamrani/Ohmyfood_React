@@ -1,6 +1,6 @@
 [
   {
-    "id": "le-delice-des-sens",
+    "id": 1,
     "src": "delice_des_sens.jpg",
     "titre": "Le délice des sens",
     "entrees": [
@@ -41,7 +41,7 @@
     ]
   },
   {
-    "id": "la-palette-du-gout",
+    "id": 2,
     "src": "palette_du_gout.jpg",
     "titre": "La palette du goût",
     "entrees": [
@@ -82,7 +82,7 @@
     ]
   },
   {
-    "id": "ala-francaise",
+    "id": 3,
     "src": "francaise.jpg",
     "titre": "À la française",
     "entrees": [
@@ -123,7 +123,7 @@
     ]
   },
   {
-    "id": "la-note-enchantee",
+    "id": 4,
     "src": "note_enchantee.jpg",
     "titre": "La note enchantée",
     "entrees": [
